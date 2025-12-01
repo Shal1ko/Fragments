@@ -30,4 +30,14 @@ public class MainActivity extends AppCompatActivity {
                     .commit();
         }
     }
+
+    public void next() {
+        getSupportFragmentManager().beginTransaction()
+                .addToBackStack("Login")
+                .replace(R.id.fragment_container, new RegistrationFragment()).commit();
+    }
+
+    public void back() {
+        getSupportFragmentManager().popBackStack();
+    }
 }

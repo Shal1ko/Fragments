@@ -7,26 +7,26 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/username"
-        android:hint="input username"></EditText>
+        android:id="@+id/newUsername"
+        android:hint="username"></EditText>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/password"
-        android:hint="input password"
-        android:inputType="textPassword"></EditText>
+        android:id="@+id/newPassword"
+        android:hint="password"></EditText>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/login"
-        android:text="Log In"></Button>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/register"
+        android:id="@+id/registrationButton"
         android:text="Register"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/backButton"
+        android:text="Back"></Button>
+
 
 </LinearLayout>

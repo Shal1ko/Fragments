@@ -32,5 +32,9 @@ public class LoginFragment extends Fragment {
             String passwordText = password.getText().toString();
 
         });
+
+        register.setOnClickListener(v -> {
+            ((MainActivity)getActivity()).next();
+        });
     }
 }
